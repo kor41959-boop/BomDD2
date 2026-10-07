@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="coalbomb"
+version="${mod_version}"
+displayName="Coal Bomb"
+description='''
+A throwable coal bomb. It sticks where it lands, glows, then eats the world in a wave.
+'''
+
+[[dependencies.coalbomb]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.coalbomb]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"

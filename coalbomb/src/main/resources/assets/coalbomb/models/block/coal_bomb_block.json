@@ -1,0 +1,1 @@
+{ "parent": "minecraft:block/cube_all", "textures": { "all": "coalbomb:block/coal_bomb_block" } }
